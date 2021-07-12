@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867fbcec915b64a4c8a2998b3825f9ca, type: 3}
+  m_Name: A0. Introduction
+  m_EditorClassIdentifier: 
+  storyText: "Welcome to Ice Cream Rush.\n\n\nIt's a choose your own adventure, so
+    be careful what you decide to do. At each stage of the game, you will be asked
+    to press either the 1 or 2 key on your keyboard. \n\n\nYou are on holiday with
+    your family at the beach. When going to get ice creams, you get the bus to save
+    time. \n\n\n1. Continue...\n\n"
+  nextStates:
+  - {fileID: 11400000, guid: 91689031a79bbc046b6e7369fe19cc3d, type: 2}

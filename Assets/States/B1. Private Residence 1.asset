@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867fbcec915b64a4c8a2998b3825f9ca, type: 3}
+  m_Name: B1. Private Residence 1
+  m_EditorClassIdentifier: 
+  storyText: 'After turning left early and have made your way down the road, you
+    notice a sign - "Private residence". As the ice cream continues to melt before
+    your eyes, you try and decide the best option next.
+
+
+
+    What should you do?
+
+
+
+    1.
+    Try and walk through without being spotted by any security.
+
+
+
+    2. Turn back
+    so you can follow the original route.'
+  nextStates:
+  - {fileID: 11400000, guid: a4ee505556ee53c4d8c78e3a29f568fb, type: 2}
+  - {fileID: 11400000, guid: 14cd6b41c75ef2f44a255ca9b6b7bfe0, type: 2}

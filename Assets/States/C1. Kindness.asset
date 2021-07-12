@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867fbcec915b64a4c8a2998b3825f9ca, type: 3}
+  m_Name: C1. Kindness
+  m_EditorClassIdentifier: 
+  storyText: "As you were apologetic and honest with the security guard, he decides
+    to let you through this one time. \r\n\n\r\nAs you exit the private residence
+    area, you find yourself on the road from your bus route. The shortcut was a success!
+    You can see the beach at the end of the road!\r\n\r\n\nWhat should you do?\r\n\n\r\n1.
+    Run for the beach.\r\n\r\n\n2. Walk to the beach."
+  nextStates:
+  - {fileID: 11400000, guid: 7b91adf77f03d9d4fb29d012298555ca, type: 2}
+  - {fileID: 11400000, guid: 83e04966fe43c6940aac70000c7f15a8, type: 2}

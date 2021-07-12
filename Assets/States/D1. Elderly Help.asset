@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867fbcec915b64a4c8a2998b3825f9ca, type: 3}
+  m_Name: D1. Elderly Help
+  m_EditorClassIdentifier: 
+  storyText: 'While walking down the road, you see an elderly woman struggling to
+    put her shopping in her car.
+
+
+
+    What should you do?
+
+
+
+    1. Help her with
+    loading the shopping.
+
+
+
+    2. Continue walking so you can get back as soon
+    as possible.'
+  nextStates:
+  - {fileID: 11400000, guid: bb7994ffb3f882a439a2959e20f5a804, type: 2}
+  - {fileID: 11400000, guid: a32b1277908aea34f8cd95bf13811f9c, type: 2}

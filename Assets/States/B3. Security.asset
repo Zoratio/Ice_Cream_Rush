@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867fbcec915b64a4c8a2998b3825f9ca, type: 3}
+  m_Name: B3. Security
+  m_EditorClassIdentifier: 
+  storyText: 'As you walk down the path of the private residence, you hear a voice
+    calling from behind. A security guard approaches and asks if you live here.
+
+    
+
+    What
+    should you do?
+
+    
+
+    1. Say you live here.
+
+    
+
+    2. Be honest and
+    explain your situation.'
+  nextStates:
+  - {fileID: 11400000, guid: fe72b3683d95bd64daaaa76fbab25582, type: 2}
+  - {fileID: 11400000, guid: 75d9bbc6b5bcfbe49b4896a7a349324a, type: 2}

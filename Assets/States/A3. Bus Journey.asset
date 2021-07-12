@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867fbcec915b64a4c8a2998b3825f9ca, type: 3}
+  m_Name: A3. Bus Journey
+  m_EditorClassIdentifier: 
+  storyText: 'After waiting a while for the bus while you watch the ice cream slowly
+    melting, a bus turns the corner heading your way.
+
+    
+
+    Unfortunately,
+    the bus that arrives will not be able to take you straight back to the beach,
+    only partly the way.
+
+    
+
+    What should you do?
+
+    
+
+    1. Get on
+    the bus.
+
+    
+
+    2. Wait for the next.'
+  nextStates:
+  - {fileID: 11400000, guid: 6965ca86dd681de4c88bede9da0c8287, type: 2}
+  - {fileID: 11400000, guid: a1cd2968f9774844b85e96668687c047, type: 2}
